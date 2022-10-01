@@ -137,43 +137,30 @@
 			font-size: 20px;
 			text-align: justify;
 		}
+.my-flex-container {
+			display: flex;
+			max-width: 100%;
+			margin-top: 90px;
+			padding: 50px 50px 90px 50px;
+			height: 100px;
+			background-color: #f5bfcd ;
+			text-align: justify;
+	
+		}
 
-		footer {
+		.my-flex-item{
+			text-align: center;
 			font-size: 15px;
-			text-align: center;
-			margin-top: 50px;
-			background: #f5bfcd;
+			background-color: #f5bfcd;
 			color: #700018;
-			padding: 50px 50px 20px 50px;
+			margin: 5px;
+			flex: 1;
+			text-align: justify;
 		}
 
-		footer p {
-			margin-bottom: 20px;
-			text-align: left;
-		}
-
-		#rodape {
+		.footer2{
 			text-align: center;
 		}
-
-		.bloco-1 {
-			float: left;
-			width: 700px;
-			margin-right: 300px;
-			margin-left: 50px;
-			padding-right: 90px;
-			border-right: 1px solid #700018;
-
-		}
-
-		.bloco-2 {
-			float: left;
-			width: 700px;
-			margin-left: -100px;
-
-
-		}
-
 
 
 
@@ -221,11 +208,10 @@
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
 		
 	</div>
+<footer class="my-flex-container">
 
-	<footer>
 
-
-		<div class="bloco-1">
+		<div class="my-flex-item">
 		<p><strong>Atendimento jurídico e psicológico gratuito para mulheres:</strong></br></br>
 
 		Horário de funcionamento
@@ -235,7 +221,7 @@
 		Rua da Paz, 42 – Parque União | Telefone: (21) 3105-5569</p></br>
 		</div>
 
-		<div class="bloco-2">
+		<div class="my-flex-item">
         <p><strong>Central de Atendimento à Mulher – Ligue 180</strong></p>
 
 		<p><strong>NUDEM</strong> - Núcleo Especial de Atendimento à Mulher Vítima de Violência - (21) 2332-6371</p>
@@ -245,10 +231,20 @@
 		<p><strong>CEJUVIDA</strong> - Central Judiciária de Acolhimento da Mulher Vítima de Violência de Doméstica - (21) 3133-3894</p></br></br>
 		</div>
 
-		<div class="clear">
-		</div>
+	
+	</footer>
 
-		<p id="rodape">Mulheres que Inspiram. Todos os direitos reservados. 2022</p></footer>
+	<footer my-flex-container>
+
+		<div class="footer2">
+		
+        <p id="rodape">Mulheres que Inspiram. Todos os direitos reservados. 2022</p>
+
+        </div>
+		
+	</footer>
+
+
 
 
 </body>
